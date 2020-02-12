@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 phrase = "hi grandma"
-def speak_to_grandma(phrase)
+
   if phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == (#{phrase}).upcase
@@ -20,5 +20,4 @@ def speak_to_grandma(phrase)
   elsif
     puts "HUH, SPEAK UP SONNY!"
   end
-end
   
